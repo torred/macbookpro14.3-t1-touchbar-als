@@ -11,7 +11,7 @@ The keyboard / trackpad driver here is now included in the kernel as of v5.3.
 
 NOTE:
 -----
-The touchbar driver was refactored in late 2018; if you're upgrading from the `appletb` driver, please see the [Upgrading](#upgrading) section; if you're running a kernel before 4.16 then please check out the [legacy](../../tree/touchbar-driver-monolithic) branch instead.
+The touchbar driver was refactored in late 2018; if you're upgrading from the `appletb` driver, please see the [Upgrading](#upgrading) section; if you're running a kernel before 4.16 then please check out the [legacy](https://github.com/almas/macbook12-spi-driver/tree/touchbar-driver-monolithic) branch instead.
 
 Using it:
 ---------
@@ -32,7 +32,7 @@ As root, do the following (all MacBook's and MacBook Pro's except MacBook8,1 (20
 echo -e "\n# applespi\napplespi\nspi_pxa2xx_platform\nintel_lpss_pci" >> /etc/initramfs-tools/modules
 
 apt install dkms
-git clone https://github.com/roadrunner2/macbook12-spi-driver.git /usr/src/applespi-0.1
+git clone https://github.com/torred/mbp-t1-touchbar-als.git /usr/src/applespi-0.1
 dkms install -m applespi -v 0.1
 ```
 
