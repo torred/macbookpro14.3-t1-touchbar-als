@@ -2,6 +2,8 @@ Project introduction instructions:
 -----
 This project is based on @almas's `touchbar-driver-hid-driver` branch in the `https://github.com/almas/macbook12-spi-driver.git` repository, with modifications to adapt it to `kernel-hwe-6.17.0-19-generic`. It compiled successfully on a 2017 MacBook Pro (MacBook Pro, 14,3) and successfully enabled the Touch Bar.
 
+Since this driver uses MFD to manage the Touch Bar and ALS, there is no resource contention issue that exists with the HID method. Therefore, under the T1 chip, using this driver does not require solving the resource contention problem. It is not recommended to use this driver for the T2 chip. Instead, use the driver at `https://github.com/torred/macbookpro14.3-t2-touchbar-als.git`.
+
 Thanks to @almas for providing the code.
 
 -----
