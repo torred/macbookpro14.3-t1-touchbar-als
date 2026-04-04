@@ -1,5 +1,5 @@
 **Project introduction instructions:**\
-This project is based on @almas's `touchbar-driver-hid-driver` branch in the `https://github.com/almas/macbook12-spi-driver.git` repository, with modifications to adapt it to `kernel-hwe-6.17.0-19-generic`. It compiled successfully on a 2017 MacBook Pro (14-inch MacBook Pro, 3-inch) and successfully enabled the Touch Bar.
+This project is based on @almas's `touchbar-driver-hid-driver` branch in the `https://github.com/almas/macbook12-spi-driver.git` repository, with modifications to adapt it to `kernel-hwe-6.17.0-19-generic`. It compiled successfully on a 2017 MacBook Pro (MacBook Pro, 14,3) and successfully enabled the Touch Bar.
 
 Thanks to @almas for providing the code.
 
