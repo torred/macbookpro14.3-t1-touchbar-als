@@ -40,6 +40,7 @@ Module.symvers
 *.zst
 *.mod
 *.code-workspace
+*.txt
 
 #
 # Top-level generic files
