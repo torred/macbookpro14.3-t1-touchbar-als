@@ -6,6 +6,7 @@ Since this driver uses MFD to manage the Touch Bar and ALS, there is no resource
 
 Thanks to @almas for providing the code.
 
+此仓库的详细操作可参见[CHANGEME.md](CHANGEME.md)。
 -----
 Input driver for the SPI keyboard / trackpad found on 12" MacBooks (2015 and later) and newer MacBook Pros (late 2016 through mid 2018), as well a simple touchbar and ambient-light-sensor driver for late 2016 MacBook Pro's and later.
 
